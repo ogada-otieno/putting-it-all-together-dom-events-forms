@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        .initial {
+            background-color: lightblue;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body >
+     <div id="container">
+        <h2 class="text">Is this real?</h2>
+        <h2 class="text">Is this real? Yes</h2>
+
+    </div>
+    <div>
+        <h2 class="text">Is this real?</h2>
+        <h2 class="text">Is this real? Yes</h2> 
+    </div>
+    <div class="initial" id="top">
+        <h1>The DOM</h1>
+        <img
+        src="https://media.giphy.com/media/3o6MbkZSYy4mI3gLYc/giphy.gif"
+        alt="A cartoon gif"
+        />
+        <p>This is the description of our <strong>cartoon gif</strong>. Let's learn some DOM. <em>Cool?</em> <a href='https://developer.mozilla.org/en-US/docs/Web/HTML'>Here is a link to learn more about HTML</a></p>
+
+        <button type="button" id="button">Click Me</button>
+        <button type="button" id="button_2">Click Me #2</button>
+
+
+        <table>
+            <thead>
+                <tr class="row">
+                <th>Element name</th>
+                <th>Display value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="row">
+                <td>h1</td>
+                <td>block</td>
+                </tr>
+                <tr>
+                <td>p</td>
+                <td>block</td>
+                </tr>
+                <tr class="row">
+                <td>strong</td>
+                <td>inline</td>
+                </tr>
+                <tr>
+                <td>em</td>
+                <td>inline</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+
+</body>
+<!-- <script>
+//   let container = document.getElementById("container");
+//   container.innerHTML = "What?";
+</script> -->
+<script src="app.js" ></script>
+<script src="index.js"></script>
+</html>
